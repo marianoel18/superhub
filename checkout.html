@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Superstore - Checkout</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="apparel.html">Apparel</a></li>
+                <li><a href="home-decor.html">Superhero Home Decor</a></li>
+                <li><a href="collectables.html">Superhero Collectibles</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="cart.html">My Cart</a></li>
+                <li><a href="clearance.html">Clearance</a></li>
+                <li><a href="checkout.html">Checkout</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="chat.html">Live Chat</a></li>
+                <li><a href="account.html">My Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Checkout</h1>
+        <!-- Display order summary and total price -->
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <!-- List products in the order -->
+            <div class="order-item">
+                <p>Product Name 1</p>
+                <p>Price: $19.99</p>
+            </div>
+            <div class="order-item">
+                <p>Product Name 2</p>
+                <p>Price: $29.99</p>
+            </div>
+            <!-- Add more order items as needed -->
+            <h3>Total: $49.98</h3>
+        </div>
+        <!-- Shipping information and address form -->
+        <h2>Shipping Information</h2>
+        <form action="confirmation.html" method="post">
+            <label for="shipping-address">Shipping Address:</label>
+            <textarea id="shipping-address" name="shipping-address" rows="4" cols="50" required></textarea>
+            <label for="shipping-method">Shipping Method:</label>
+            <select id="shipping-method" name="shipping-method" required>
+                <option value="standard">Standard Shipping</option>
+                <option value="express">Express Shipping</option>
+            </select>
+            <button type="submit">Confirm Order</button>
+        </form>
+    </div>
+    <footer>
+        <div class="contact-info">
+            <p>Follow us on:</p>
+            <a href="#">Instagram</a> |
+            <a href="#">Twitter</a> |
+            <a href="#">Facebook</a>
+            <p>Call us at: 123-456-7890</p>
+        </div>
+    </footer>
+</body>
+</html>

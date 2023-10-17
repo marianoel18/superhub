@@ -1,0 +1,40 @@
+body {
+    background: deep-purple; /* or indigo */
+    color: silver; /* or metallic tones */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: dark-blue; /* or black */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: silver; /* or metallic tones */
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background: dark-blue; /* or black */
+    color: silver; /* or metallic tones */
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-info a {
+    color: silver; /* or metallic tones */
+    text-decoration: none;
+}
